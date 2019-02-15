@@ -6,5 +6,7 @@ prob += x + y <= 2
 prob += -4*x + y
 status = prob.solve()
 value(x), value(y)
+lkiofghjrftiojhbdfiojhfnbvlmnlvbkm
 value(prob.objective)
+jkljhkghjgvjhfgh    fhfgbn 
 print(value(x), value(y))
