@@ -1,3 +1,7 @@
-##Pagina de programacion lineal
+## Página de programación lineal
 
-En esta pagina voy a mostrar cosas de programación lineal
+En esta página voy a mostrar  las cosas magníficas que estoy aprendiendo en el magnífico curso de Programación lineal
+
+## Sympy
+
+Aprendimos a usar la biblioteca sympy
