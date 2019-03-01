@@ -16,6 +16,6 @@ Aprendimos a usar la biblioteca sympy
 - [Pagina de Google](https://www.google.com)
 - [Github](https://github.com)
 
-##Problemas
+## Problemas
 
 Maximizar \(z=x_1+x_2\) sijeto a \(x1\geq 0\).
