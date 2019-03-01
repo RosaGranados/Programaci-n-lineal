@@ -1,4 +1,4 @@
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX
 
 ## Página de programación lineal
 
@@ -18,4 +18,4 @@ Aprendimos a usar la biblioteca sympy
 
 ## Problemas
 
-Maximizar \(z=x_1+x_2\) sijeto a \(x1\geq 0\).
+Maximizar \(z=x_1+x_2\) sujeto a \(x1\geq 0\).
