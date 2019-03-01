@@ -10,6 +10,6 @@ Aprendimos a usar la biblioteca sympy
 
 ### Enlaces
 
--[Pagina de Paython](https://www.python.org/)
--[Pagina de Google](https://www.google.com)
--[Github](https://github.com)
+- [Pagina de Paython](https://www.python.org/)
+- [Pagina de Google](https://www.google.com)
+- [Github](https://github.com)
