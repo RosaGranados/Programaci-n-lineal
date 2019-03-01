@@ -2,6 +2,7 @@
 
 ## Página de programación lineal
 
+![programación lineal](programacionlineal.jpg)
 En esta página voy a mostrar  las cosas magníficas que estoy aprendiendo en el magnífico curso de Programación lineal
 
 ## Sympy
