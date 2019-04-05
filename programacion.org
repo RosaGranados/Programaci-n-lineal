@@ -1,0 +1,48 @@
+#+title: Programación lineal 
+#+author: Rosa Angélica Granados Percastegui 
+
+#+options: H:2
+
+* Teoría
+** Motivación
+
+El objetivo de la programación es maximizar funciones lineales
+sobre dominios convexos, es decir, definidos sobre regiones dadas  por
+desigualdades.
+[[file:regionfac.png]]
+** Ejemplos
+
+- El problema de la dieta.
+- Optimización de lugares en una excurción para un campamento.
+- Escoger objetos óptimos para un campamento.
+- El problema del flujo máximo.
+
+** Convexidad
+
+Un conjunto \(X\) es *convexo* si para todos \(x,y\in X\) y \(t\in
+[0,1]\) se tiene que \((tx+(1-t)y\in X\).
+** El método simplex
+
+* Herramientas computacionales
+
+** Emacs
+| C-x C-s         | Salvar archivo              |
+| C-x C-f         | Abrir archivo               |
+| M-q             | Formatear el parrafo        |
+| C-x d           | Editar directorios          |
+| C-g             | Salir de todo               |
+| C-x 1           | Regresa a una sola pantalla |
+| C-x 2           | Divide orizontalmente       |
+| C-x 3           | Divide verticalmente        |
+| M-w             | Copia la región             |
+| C-w             | Borra la región             |
+| C-y             | Pegar la región             |
+| Shift y flechas | Seleccionar la región       |
+** Python
+
+*** El lenguaje paython
+
+*** jupyther
+
+** LateX
+
