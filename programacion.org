@@ -2,7 +2,7 @@
 #+author: Rosa Angélica Granados Percastegui 
 
 #+options: H:2
-
+#+latex_header: \usepackage{listings}
 * Teoría
 ** Motivación
 
@@ -26,23 +26,55 @@ Un conjunto \(X\) es *convexo* si para todos \(x,y\in X\) y \(t\in
 * Herramientas computacionales
 
 ** Emacs
-| C-x C-s         | Salvar archivo              |
-| C-x C-f         | Abrir archivo               |
-| M-q             | Formatear el parrafo        |
-| C-x d           | Editar directorios          |
-| C-g             | Salir de todo               |
-| C-x 1           | Regresa a una sola pantalla |
-| C-x 2           | Divide orizontalmente       |
-| C-x 3           | Divide verticalmente        |
-| M-w             | Copia la región             |
-| C-w             | Borra la región             |
-| C-y             | Pegar la región             |
-| Shift y flechas | Seleccionar la región       |
+| C-x C-s         | Salvar archivo              |   |   |
+| C-x C-f         | Abrir archivo               |   |   |
+| M-q             | Formatear el parrafo        |   |   |
+| C-x d           | Editar directorios          |   |   |
+| C-g             | Salir de todo               |   |   |
+| C-x 1           | Regresa a una sola pantalla |   |   |
+| C-x 2           | Divide orizontalmente       |   |   |
+| C-x 3           | Divide verticalmente        |   |   |
+| M-w             | Copia la región             |   |   |
+| C-w             | Borra la región             |   |   |
+| C-y             | Pegar la región             |   |   |
+| Shift y flechas | Seleccionar la región       |   |   |
+|                 |                             |   |   |
+
+
+*** Org mode
+|C-c  C-c | Corre un bloque de código |
 ** Python
 
 *** El lenguaje paython
+en el lenguaje  Python podemos hacer operaciones:
+
+#+begin_src python :session
+2+2
+
+#+end_src
+
+#+RESULTS:
+: 4
+
+También podemos usar la biblioteca pulp. Por ejemplo, encontramos el máximo de \(-4x+y\) sujeto a \(x+y\leq \frac{1}{2}\)
+
+
+#+begin_src python :session
+from pulp import *
+x = LpVariable("x", 0, 3)
+y = LpVariable("y", 0, 1)
+prob = LpProblem("myProblem", LpMinimize)
+prob += x + y <= 2
+prob += -4*x + y
+status = prob.solve()
+value(x), value(y), value(prob.objective)
+#+end_src
+
+#+RESULTS:
+| 2.0 | 0.0 | -8.0      |
 
 *** jupyther
 
 ** LateX
+
 
